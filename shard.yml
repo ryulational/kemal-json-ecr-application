@@ -1,0 +1,12 @@
+name: kemal-json-ecr-application
+version: 0.1.0
+
+targets:
+  kemal-json-ecr-application:
+    main: src/kemal-json-ecr-application.cr
+
+crystal: 1.7.2
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
